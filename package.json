@@ -1,0 +1,25 @@
+{
+	"name": "vuepress-plugin-expandable-row",
+	"version": "1.0.0",
+	"description": "vuepress-plugin-expandable-row",
+	"main": "lib/index.js",
+	"bugs": {
+		"url": "https://github.com/StrivingRabbit/vuepress-plugin-check-md2/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StrivingRabbit/vuepress-plugin-check-md2.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"vuepress",
+		"plugin",
+		"table",
+		"expandable",
+		"row"
+	],
+	"author": "LXH",
+	"license": "ISC"
+}
