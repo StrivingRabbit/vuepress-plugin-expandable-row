@@ -31,3 +31,11 @@
   表现为：
 
   ![](https://web-ext-storage.dcloud.net.cn/doc/expandable-row.png)
+
+
+## Options
+
+### flag
+
+- Type: `string`
+- Default: `@`
