@@ -1,6 +1,6 @@
 {
 	"name": "vuepress-plugin-expandable-row",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "vuepress-plugin-expandable-row",
 	"main": "lib/index.js",
 	"bugs": {
@@ -10,12 +10,12 @@
 		"type": "git",
 		"url": "git+https://github.com/StrivingRabbit/vuepress-plugin-expandable-row.git"
 	},
-  "scripts": {
-    "publish:patch": "npm version patch && npm publish",
-    "publish:minor": "npm version minor && npm publish",
-    "publish:major": "npm version major  && npm publish",
-    "postpublish": "cnpm sync vuepress-plugin-expandable-row"
-  },
+	"scripts": {
+		"publish:patch": "npm version patch && npm publish",
+		"publish:minor": "npm version minor && npm publish",
+		"publish:major": "npm version major  && npm publish",
+		"postpublish": "cnpm sync vuepress-plugin-expandable-row"
+	},
 	"keywords": [
 		"vuepress",
 		"plugin",
