@@ -4,11 +4,11 @@
 	"description": "vuepress-plugin-expandable-row",
 	"main": "lib/index.js",
 	"bugs": {
-		"url": "https://github.com/StrivingRabbit/vuepress-plugin-check-md2/issues"
+		"url": "https://github.com/StrivingRabbit/vuepress-plugin-expandable-row/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/StrivingRabbit/vuepress-plugin-check-md2.git"
+		"url": "git+https://github.com/StrivingRabbit/vuepress-plugin-expandable-row.git"
 	},
   "scripts": {
     "publish:patch": "npm version patch && npm publish",
