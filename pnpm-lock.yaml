@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  markdown-it-raw-table:
+    specifier: ^1.0.0
+    version: 1.0.0
+
+packages:
+
+  /markdown-it-raw-table@1.0.0:
+    resolution: {integrity: sha512-WjzHJk5CrsMo8ZGAOMBfJskOgSB8EYK6G7uRbpiELTCsiIrGIx+Acy9vpWfc4RCZiZnNr9VAlKXriPj0eAOPjg==}
+    dev: true
