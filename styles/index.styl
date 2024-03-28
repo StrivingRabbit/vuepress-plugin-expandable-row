@@ -1,23 +1,24 @@
-table.have-children-table tr.have-children-tr td.have-children-tr-td
-	.toggle-children-table
-		user-select none
-		display: inline-block;
-		margin-left 3px
-		margin-right 3px
-		cursor:pointer;
-		width: 10px;
-		height: 10px;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='12' height='12' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M2.99427682 1.3995186L3.88640626.5l4.86067483 4.90093365c.3281374.33085521.331048.86434278 0 1.1981327L3.88640626 11.5l-.89212944-.89951856L7.55696751 6 2.99427682 1.3995186z' fill='%23000' fill-rule='evenodd' fill-opacity='.5'/%3e%3c/svg%3e");
-		&.opened
-			transform: rotate(90deg);
+table.have-children-table tr.have-children-tr
+	td.have-children-tr-td
+		.toggle-children-table
+			user-select none
+			display: inline-block;
+			margin-left 3px
+			margin-right 3px
+			cursor:pointer;
+			width: 10px;
+			height: 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='12' height='12' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M2.99427682 1.3995186L3.88640626.5l4.86067483 4.90093365c.3281374.33085521.331048.86434278 0 1.1981327L3.88640626 11.5l-.89212944-.89951856L7.55696751 6 2.99427682 1.3995186z' fill='%23000' fill-rule='evenodd' fill-opacity='.5'/%3e%3c/svg%3e");
+			&.opened
+				transform: rotate(90deg);
 
 trTdBorderNone()
 	tr, td
 		border none
 
-table.have-children-table tr.children-table
+table.have-children-table .children-table-tr
 	background-color #fff
 	table
 		overflow-x visible
@@ -32,7 +33,7 @@ table.have-children-table tr.children-table
 			th
 				border none
 				color #000
-				font-weight 400
+				font-weight 600
 				opacity .5
 				&:first-child
 					border-top-left-radius 8px
@@ -46,7 +47,9 @@ table.have-children-table tr.children-table
 			tr
 				&:nth-child(2n)
 					background-color #fbfbfb
-				&.children-table
+				.children-table-tr
 					background-color #fbfbfb
 					& > td
 						padding-right 0
+table.children-table
+	font-size 15px
