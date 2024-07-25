@@ -1,6 +1,6 @@
 {
 	"name": "vuepress-plugin-expandable-row",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "vuepress-plugin-expandable-row",
 	"main": "lib/index.js",
 	"bugs": {
