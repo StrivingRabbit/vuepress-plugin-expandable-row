@@ -25,7 +25,7 @@
 	],
 	"author": "LXH",
 	"license": "ISC",
-	"devDependencies": {
+	"dependencies": {
 		"markdown-it-raw-table": "^1.0.0"
 	}
 }
