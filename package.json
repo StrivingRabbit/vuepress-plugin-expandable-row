@@ -11,6 +11,7 @@
 		"url": "git+https://github.com/StrivingRabbit/vuepress-plugin-expandable-row.git"
 	},
 	"scripts": {
+		"test": "node test/expandable-row.test.js",
 		"publish:patch": "npm version patch && npm publish",
 		"publish:minor": "npm version minor && npm publish",
 		"publish:major": "npm version major  && npm publish",
